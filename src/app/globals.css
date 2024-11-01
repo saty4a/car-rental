@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  /* width: 100%; */
+}
+
+.home-page-container {
+  background: no-repeat url("/homepagecar.png");
+  background-size: 40%;
+  background-color: #5937E0;
+  background-position: right 5rem bottom 10px;
+  height: auto;
+}
+
+@media screen and (min-width: 769px) {
+  .home-page-container {
+    height: 660px;
+  }
+  
+}
